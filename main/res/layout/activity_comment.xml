@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<TextView
+    android:fontFamily="@font/adobe_arabic_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24.5sp"
+        android:textColor="#010303"
+        android:lineSpacingExtra="2sp"
+        tools:text="CROP."
+        android:layout_gravity="center"
+    android:layout_marginTop="33dp"
+        />
+
+
+    <TextView
+        android:fontFamily="@font/bareunbatangb"
+        android:id="@+id/tv_em"
+        android:layout_width="327dp"
+        android:layout_height="154.6dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="37.3dp"
+        android:background="@drawable/button_back"
+        android:gravity="center"
+        android:shadowColor="#29000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:text="Test"
+        android:textColor="#010a09"
+        android:textSize="18.8sp" />
+
+
+    <TextView
+        android:background="#b2dfdb"
+        android:layout_width="330dp"
+        android:layout_height="1.3dp"
+
+        android:layout_marginTop="12dp"
+        />
+
+
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/list_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:divider="@null"></ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65.3dp"
+        android:background="#543191"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="287.8dp"
+            android:layout_height="42.3dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/selector_write" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="40.3dp"
+            android:layout_height="40.3dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8.5dp"
+            android:background="@drawable/round_create_24_px" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

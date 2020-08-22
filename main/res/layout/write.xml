@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_push"
+        android:layout_gravity="right"
+        android:background="@drawable/round_publish_24_px"
+        android:layout_width="26dp"
+        android:layout_height="26dp" />
+    
+
+
+    <TextView
+        android:fontFamily="@font/adobe_arabic_regular"
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="39.3dp"
+        android:lineSpacingExtra="2sp"
+        android:text="CROP."
+        android:textColor="#0d0101"
+        android:textSize="24.5sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_marginLeft="172.5dp"
+
+            android:background="@drawable/botten_set"
+            android:layout_width="80.3dp"
+            android:layout_height="25dp"
+            android:textSize="11.3sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="2.3sp"
+            android:gravity="center_horizontal"
+            android:text="카테고리"
+            />
+        <TextView
+            android:layout_marginLeft="11.5dp"
+            android:layout_width="80.3dp"
+            android:layout_height="25dp"
+            android:textSize="11.3sp"
+            android:textColor="#666666"
+            android:lineSpacingExtra="2.3sp"
+            android:text="기간"
+            />
+
+
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:hint="제목"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="내용"
+        />
+
+</LinearLayout>
